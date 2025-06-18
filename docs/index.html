@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarRain Network</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+        html, body {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        body {
+            background: linear-gradient(0deg,rgba(0, 212, 255, 1) 0%, rgba(9, 9, 117, 1) 50%, rgba(2, 0, 36, 1) 100%);
+            color: white;
+            font-family: 'Silkscreen', cursive;
+        }
+
+        .container {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 50px 80px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+
+        .logo {
+            filter: drop-shadow(0 0 20px rgba(126, 195, 225, 0.5));
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin: 20px 0;
+            background: linear-gradient(45deg, #e099ff, #7ec3e1);
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        a {
+            color: #7ec3e1;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                padding: 30px 40px;
+                margin: 20px;
+            }
+
+            h1 {
+                font-size: 3rem;
+            }
+
+            .logo {
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <img src="logo.svg" height="200" class="logo" alt="StarRain Network Logo">
+        <h1>rain.ne.jp</h1>
+        <p>Powered By <a href="https://starra.in">StarRain Network</a></p>
+    </div>
+</div>
+</body>
+</html>
